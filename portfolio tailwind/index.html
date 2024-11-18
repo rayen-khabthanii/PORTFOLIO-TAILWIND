@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rayen's portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans">
+  
+  <!-- Header Section -->
+  <header class="bg-blue-500 p-4">
+    <div class="flex justify-between items-center">
+      <div class="text-white text-2xl font-bold">Rayen Khabthani</div>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#home" class="text-white">Home</a></li>
+          <li><a href="#projects" class="text-white">Projects</a></li>
+          <li><a href="#contact" class="text-white">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative bg-cover bg-center h-96 text-center text-white" style="background-image: url('https://hawkinswisconsin.org/wp-content/uploads/2023/07/calgary-website-development-cornerstone-digital.jpg');">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="relative z-10 py-32">
+      <h1 class="text-4xl font-semibold">Hello, I'm Your Name</h1>
+      <p class="mt-4 text-lg">I'm a passionate developer and designer.</p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="p-8 text-center">
+    <h2 class="text-3xl font-semibold">My Skills</h2>
+    <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="p-6 bg-white shadow-lg rounded-lg">HTML</div>
+      <div class="p-6 bg-white shadow-lg rounded-lg">CSS</div>
+      <div class="p-6 bg-white shadow-lg rounded-lg">JavaScript</div>
+      <div class="p-6 bg-white shadow-lg rounded-lg">React</div>
+      <div class="p-6 bg-white shadow-lg rounded-lg">Tailwind CSS</div>
+      <div class="p-6 bg-white shadow-lg rounded-lg">Node.js</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-gray-200 p-8">
+    <h2 class="text-3xl font-semibold text-center">My Projects</h2>
+    <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white" alt="Project 1" class="w-full h-48 object-cover rounded-t-lg">
+        <h3 class="mt-4 text-x p-6 rounded-lg shadow-lg">
+        <img src="https://media.slidesgo.com/storage/54256682/conversions/0-student-portfolio-thumb.jpg">Personal portfolio</h3>
+        <p class="text-gray-600"> A responsive, interactive portfolio to showcase your skills, projects, and experience as a web developer. It typically includes sections like an "About Me," "Skills," "Projects," and "Contact." You can use HTML, CSS (with frameworks like Tailwind or Bootstrap), and JavaScript (for interactivity like modals or forms).</p>
+    <p>Key Features: Custom design, project galleries, contact form, responsive design.</p>
+    </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <img src="https://media.geeksforgeeks.org/wp-content/uploads/20240409180455/ecommerce-Website-Project.webp" alt="Project 2" class="w-full h-48 object-cover rounded-t-lg">
+        <h3 class="mt-4 text-xl"> E-commerce Website</h3>
+        <p class="text-gray-600"> Create a full-fledged e-commerce website that allows users to browse products, add them to the cart, and complete purchases. This project involves creating product listings, a shopping cart, user authentication, and a checkout system. Backend development (using a framework like Node.js or Django) may be needed for managing products, user accounts, and orders.</p>
+     <p>Key Features: Product pages, cart functionality, user login, payment integration, order management.</p>
+    </div>
+      <div class="bg-white p-6 rounded-lg shadow-lg">
+        <img src="https://www.cloudways.com/blog/wp-content/uploads/best-blogging-cms-platforms.jpg" alt="Project 3" class="w-full h-48 object-cover rounded-t-lg">
+        <h3 class="mt-4 text-xl">3. Blog Website with CMS (Content Management System)</h3>
+        <p class="text-gray-600">Build a blog website where users can read articles, and admins can log in to post, edit, and delete articles. This project would use HTML, CSS, and JavaScript for the front end, and a backend like Node.js or PHP with a database (e.g., MySQL, MongoDB) to store posts and comments. You can integrate a CMS for content management.</p>
+     <P>Key Features: Admin dashboard, article posting, commenting system, user authentication, search functionality.</P>
+    </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section id="contact" class="p-8 bg-blue-500 text-white">
+    <h2 class="text-3xl font-semibold text-center">Contact Me</h2>
+    <form class="mt-6 max-w-lg mx-auto space-y-4">
+      <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg bg-white text-gray-800" required>
+      <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg bg-white text-gray-800" required>
+      <textarea placeholder="Your Message" class="w-full p-3 rounded-lg bg-white text-gray-800" rows="4" required></textarea>
+      <button type="submit" class="w-full p-3 bg-yellow-500 text-white rounded-lg">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-gray-800 p-4 text-center text-white">
+    <p>&copy; 2024 RAYEN KHABTHANI. All Rights Reserved.</p>
+    <div class="mt-2">
+      <a href="#" class="text-white mx-2">Facebook</a>
+      <a href="#" class="text-white mx-2">Instagram</a>
+      <a href="#" class="text-white mx-2">LinkedIn</a>
+    </div>
+  </footer>
+
+</body>
+</html>
